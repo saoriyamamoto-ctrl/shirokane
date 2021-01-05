@@ -1,0 +1,210 @@
+@media (max-width:1000px){
+  .wrapper{
+    max-width:700px;
+  }
+
+  /* <!-- design --> */
+
+  .design-content:nth-child(odd) .design-content-left{
+    text-align: center;
+  }
+
+  .design-content:nth-child(even) .design-content-left{
+    text-align: center;
+  }
+
+  .design-content:nth-child(odd){
+    flex-direction: column;
+  }
+
+  .design-content:nth-child(even){
+    flex-direction: column;
+  }
+
+  .design-content-left{
+    width:100%;
+
+    }
+    
+
+  .design-content-left img{
+    width:500px;
+  }
+
+  .design-content-right{
+    width:100%;
+    }
+
+  .design-content-right h2{
+    text-shadow: 1px 2px 4px  #999; 
+  }
+ /* <!-- archtect --> */
+
+ .archtect h1{
+  padding-top:65px;
+ }
+
+ .profile .name{
+   font-size:1.1rem;
+ }
+
+ .profile .texl{
+  font-size:1rem;
+ }
+
+ .profile .texs{
+  font-size:0.93rem;
+ }
+
+ .archtect h3{
+  bottom:33.8%;
+ }
+
+ .design-concept{
+  padding-top:35px;
+ }
+
+   /* <!-- access --> */
+   .access{
+    padding-top:60px;
+   }
+
+.access h1{
+  padding-bottom:25px;
+}
+
+.access .map{
+  flex-direction: column;
+display: block;
+text-align: center;
+}
+
+.access img{
+  width:600px;
+  padding:20px 20px 70px 20px;
+}
+
+.access h2{
+  bottom:20%;
+}
+
+.shirokane-style{
+margin:0 2%;
+}
+
+.access a{
+  padding-top:90px;
+}
+}
+
+
+@media (max-width:600px){
+  .wrapper{
+    max-width:500px;
+  }
+
+  .globalMenuPc{
+    display:none;
+  }
+
+  .hamburger {
+    display : block;
+  }
+
+  nav.globalMenuSp {
+    display : block;
+  }
+
+  .sp-link{
+    display : block;
+  }
+
+  .top-wrapper .top-background{
+    height:55vh;
+  }
+
+  .top-wrapper .top-wrapper-logo{
+    margin-top:50%;
+    width:70%;
+  }
+ 
+  .concept{
+    /* height:60vh; */
+    padding-top:40px;
+  }
+
+  .spec{
+    margin-top:60px;
+  }
+
+  .design{
+    margin-top:50px;
+  }
+
+ 
+
+  .design-content-left img{
+    width:100%;
+  }
+
+  .design-content-right h2{
+    display: block;
+    text-align: center;
+    border-bottom:none;
+    text-decoration:underline;
+    padding-top:0px;
+  }
+
+  .design-content-right p{
+    padding-top:15px;
+    margin:2%;
+  }
+
+  .archtect{
+    margin-top:0px;
+  }
+
+  .archtect h1{
+    padding-top:85px;
+   }
+  
+  .profiles{
+ flex-direction: column;
+  }
+
+  .profile{
+    width:100%;
+    padding:5%;
+    text-align: center;
+  }
+
+  .profile .texl{
+    padding-top:15px;
+
+  }
+
+  .archtect h3{
+    bottom:48.5%;
+   width:55%;
+  }
+
+  .access{
+    padding-top:50px;
+   }
+
+    .access img{
+      width:100%;
+    }
+
+    .access h2{
+      bottom:33%;
+      width:56%;
+    }
+
+    .access a{
+      padding-top:60px;
+      padding-bottom:50px;
+    }
+
+
+}
