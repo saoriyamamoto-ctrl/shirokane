@@ -1,0 +1,203 @@
+@media (max-width:1000px){
+  .wrapper{
+    max-width:700px;
+  }
+ /* <!-- top-wrapper --> */
+  .top-wrapper .top-background{
+    height:65vh;
+  }
+
+  .top-wrapper .top-wrapper-logo{
+    margin-top:300px;
+  }
+
+  /* <!-- design --> */
+  .design{
+    height:1820px;
+  }
+  .design-content:nth-child(odd) .design-content-left{
+    text-align: center;
+  }
+
+  .design-content:nth-child(even) .design-content-left{
+    text-align: center;
+  }
+
+  .design-content:nth-child(odd){
+    flex-direction: column;
+  }
+
+  .design-content:nth-child(even){
+    flex-direction: column;
+  }
+
+  .design-content-left{
+    width:100%;
+
+    }
+    
+
+  .design-content-left img{
+    width:500px;
+  
+  }
+
+  .design-content-right{
+    width:100%;
+    }
+
+  .design-content-right h2{
+    text-shadow: 1px 2px 4px  #999; 
+  }
+ /* <!-- archtect --> */
+
+ .archtect h1{
+  padding-top:65px;
+ }
+
+ .profile .name{
+   font-size:1.1rem;
+ }
+
+ .profile .texl{
+  font-size:1rem;
+ }
+
+ .profile .texs{
+  font-size:0.93rem;
+ }
+
+ .archtect h3{
+  bottom:32.2%;
+ }
+
+ .design-concept{
+  padding-top:35px;
+ }
+
+   /* <!-- access --> */
+   .access{
+margin-top:30px;
+}
+
+.access h1{
+  padding-bottom:40px;
+}
+
+.access .map{
+  flex-direction: column;
+display: block;
+text-align: center;
+}
+
+.access img{
+  width:600px;
+  padding:20px 20px 70px 20px;
+}
+
+.access h2{
+  bottom:21.6%;
+}
+
+.shirokane-style{
+margin:0 2%;
+}
+
+.access a{
+  padding-top:90px;
+}
+}
+
+
+@media (max-width:600px){
+  .wrapper{
+    max-width:500px;
+  }
+
+  .globalMenuPc{
+    display:none;
+  }
+
+  .hamburger {
+    display : block;
+  }
+
+  nav.globalMenuSp {
+    display : block;
+  }
+
+  .sp-link{
+    display : block;
+  }
+
+  .top-wrapper .top-background{
+    height:55vh;
+  }
+
+  .top-wrapper .top-wrapper-logo{
+    margin-top:230px;
+  }
+ 
+  .concept{
+    height:60vh;
+  }
+
+  .spec{
+    height:118vh;
+  }
+
+  .design-content-left img{
+    width:400px;
+  }
+
+  .design-content-right h2{
+    display: block;
+    text-align: center;
+    border-bottom:none;
+    text-decoration:underline;
+    padding-top:0px;
+  }
+
+  .design-content-right p{
+    padding-top:15px;
+    margin:2%;
+  }
+
+  .archtect{
+    height:200vh;
+  }
+
+  .profiles{
+ flex-direction: column;
+  }
+
+  .profile{
+    width:100%;
+    padding:5%;
+    text-align: center;
+  }
+
+  .profile .texl{
+    padding-top:15px;
+ 
+  }
+
+  .archtect h3{
+    bottom:37.8%;
+  }
+
+  .access{
+    height:1700px;
+  }
+
+  
+    .access img{
+      width:500px;
+    }
+
+    .access h2{
+      bottom:26.5%;
+    }
+
+
+}
