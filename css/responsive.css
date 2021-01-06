@@ -104,7 +104,7 @@ margin:0 2%;
   }
 
   .globalMenuPc{
-    display:none:
+    display:none;
   }
 
   .hamburger {
@@ -112,7 +112,7 @@ margin:0 2%;
   }
 
   nav.globalMenuSp {
-    display : none;
+    display : block;
   }
 
   .sp-link{
