@@ -3,6 +3,10 @@
     max-width:700px;
   }
 
+  .globalMenuPc li{
+padding-left:12px;
+  }
+
   /* <!-- design --> */
 
   .design-content:nth-child(odd) .design-content-left{
