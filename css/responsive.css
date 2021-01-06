@@ -114,7 +114,11 @@ margin:0 2%;
   nav.globalMenuSp {
     display : block;
   }
-
+  
+  nav.globalMenuSp ul li {
+    display:none;
+  }
+  
   .sp-link{
     display : block;
   }
