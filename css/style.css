@@ -34,7 +34,7 @@ padding-left:30px;
 display:block;
 color: #595757;
 line-height: 1.0;
-padding:15px 0 10px;
+padding:15px 8px 10px;
 margin-top:8px;
 text-decoration: none;
 text-align: center;
@@ -44,7 +44,7 @@ text-align: center;
   opacity:0.5;
 }
 
-.link{
+.globalMenuPc .link{
   background: #111;
   color:#fff;
   padding:13px 8px 10px;
@@ -82,12 +82,12 @@ button:focus{
 	outline:none;
 }
 
-ul{
+.globalMenuSp{
 	display:none;
 	list-style-type:none;
 }
 
-li a{
+.globalMenuSp li a{
 	text-decoration:none;
 	font-weight:bold;
 	display:block;
@@ -101,16 +101,16 @@ li:last-child a{
 	border-bottom:none;
 }
 
-main{
+/* main{
 	display:block;
 	padding:40px 20px 20px;
 	color:#333;
-}
+} */
 
-p{
+/* p{
 	margin-bottom:50px;
 	line-height:2em;
-}
+} */
 
 
   /* <!-- top-wrapper --> */
@@ -125,7 +125,7 @@ margin-top:55px;
 
 .top-wrapper .top-wrapper-logo{
   width: 350px;
-  margin-top:350px;
+  margin-top:40vh;
 }
 /* <!-- concept --> */
 .concept{
@@ -261,7 +261,6 @@ width:35%;
  .archtect{
    margin-top:70px;
    background: #EFEFEF;
-   position: relative;
    padding-bottom:50px;
  }
 
@@ -313,7 +312,7 @@ padding-bottom:8px;
 
  .profile .texl{
    font-size:0.9rem;
-   padding-left:5px;
+   /* padding-left:50%; */
  }
   .profile .texs{
     font-size:0.85rem;
@@ -323,46 +322,78 @@ padding-bottom:8px;
   }
   
 
-  .design-concept{
+  /* .design-concept{
  font-size:0.95rem;
-  /* line-height: 20px; */
   padding-top:20px;
   border:1px solid #999;
   margin:2% 2%;
-  }
-/* .design-concept-oya{
   position: relative;
-} */
+  } */
 
-.archtect h3{
-font-size:1.2rem;
-font-style: italic;
-text-shadow: 1px 2px 4px  #DAD5CF; 
-text-align: center;
-padding-bottom:10px;
-letter-spacing:1.5px;
-position: absolute;
+  .design-concept {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border:1px solid #999;
+  
+}
+.design-concept .box-title {
+    position: absolute;
+    display: inline-block;
+    font-size:1.2rem;
+    font-style: italic;
+    top: -13px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background:#EFEFEF;
+    text-shadow: 1px 2px 4px  #DAD5CF;
+    font-weight: bold;
+}
 
-bottom:25.5%;
-left: 50%;
-transform: translate(-50%, -50%);
-transform: translateX(-50%);
--webkit-transform: translateX(-50%);
--ms-transform: translateX(-50%);
-background: #EFEFEF;
+.design-concept p {
+    margin: 0; 
+    padding: 0;
 }
 
 
-  .design-concept p{
+
+
+
+  
+/* .archtect h3{
+  font-size:1.2rem;
+  font-style: italic;
+  text-shadow: 1px 2px 4px  #DAD5CF; 
+  text-align: center;
+  letter-spacing:1.5px;
+  position: absolute;
+  top:60px;
+  left:550px;
+
+  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  background: #EFEFEF;
+  } */
+  
+
+
+  /* .design-concept p{
     padding-bottom:20px;
     padding-right:60px;
     padding-left:60px; 
-  }
+  } */
 
    /* <!-- access --> */
   .access{
     padding-top:90px;
-    position:relative;
   }
 
   .access h1{
@@ -382,34 +413,36 @@ background: #EFEFEF;
     padding:20px 20px 100px 20px;
   }
 
-  .access h2{
-    text-align: center;
+  .access .box-title{
+    position: absolute;
+    display:inline-block;
     font-size:1.2rem;
     font-style: italic;
-  text-shadow: 1px 2px 4px  #DAD5CF; 
-  
-
-  position: absolute;
-
-bottom:32%;
-left: 50%;
-transform: translate(-50%, -50%);
-transform: translateX(-50%);
--webkit-transform: translateX(-50%);
--ms-transform: translateX(-50%);
-background: #fff;
+    top: -13px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background:#FFF;
+    text-shadow: 1px 2px 4px  #DAD5CF;
+    font-weight: bold;
   }
 
   .shirokane-style{
-    border:1px solid #999; 
-    padding-top:20px;
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border:1px solid #999;
   }
 
   .shirokane-style p{
     font-size:0.95rem;
-    padding-bottom:20px;
-    padding-right:60px;
-    padding-left:60px;
+    margin: 0; 
+    padding: 0;
   }
 
   .access a{
