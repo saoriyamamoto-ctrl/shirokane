@@ -72,16 +72,15 @@ text-align: center;
 
 /*　ハンバーガーボタン　*/
 .hamburger {
-  display : none;
+  display : block;
   position: fixed;
   z-index : 3;
   right : 13px;
-  top   : 7px;
+  top   : 12px;
   width : 42px;
   height: 42px;
   cursor: pointer;
   text-align: center;
-
 }
 .hamburger span {
   display : block;
@@ -90,9 +89,9 @@ text-align: center;
   height  : 2px ;
   left    : 6px;
   background : #555;
-  -webkit-transition: 0.3s ease-in-out;
-  -moz-transition   : 0.3s ease-in-out;
-  transition        : 0.3s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition   : 0.5s ease-in-out;
+  transition        : 0.5s ease-in-out;
 }
 .hamburger span:nth-child(1) {
   top: 10px;
@@ -108,23 +107,22 @@ text-align: center;
 .hamburger.active span:nth-child(1) {
   top : 16px;
   left: 6px;
-  background :#fff;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform   : rotate(-45deg);
-  transform        : rotate(-45deg);
+  background : #fff;
+  -webkit-transform: rotate(315deg);
+  -moz-transform   : rotate(315deg);
+  transform        : rotate(315deg);
 }
 
 .hamburger.active span:nth-child(2),
 .hamburger.active span:nth-child(3) {
   top: 16px;
-  background :#fff;
-  -webkit-transform: rotate(45deg);
-  -moz-transform   : rotate(45deg);
-  transform        : rotate(45deg);
+  background : #fff;
+  -webkit-transform: rotate(-315deg);
+  -moz-transform   : rotate(-315deg);
+  transform        : rotate(-315deg);
 }
 
 nav.globalMenuSp {
-  display:none;
   position: fixed;
   z-index : 2;
   top  : 0;
@@ -144,20 +142,19 @@ nav.globalMenuSp ul {
 }
 
 nav.globalMenuSp ul li {
-  display:none;
   list-style-type: none;
   padding: 0;
   width: 100%;
   transition: .4s all;
 }
-nav .globalMenuSp ul li:last-child {
+nav.globalMenuSp ul li:last-child {
   padding-bottom: 0;
 }
-nav .globalMenuSp ul li:hover{
+nav.globalMenuSp ul li:hover{
   background :#ddd;
 }
 
-nav .globalMenuSp ul li a {
+nav.globalMenuSp ul li a {
   display: block;
   color: #fff;
   padding: 1em 0;
@@ -165,7 +162,7 @@ nav .globalMenuSp ul li a {
 }
 
 /* このクラスを、jQueryで付与・削除する */
-nav .globalMenuSp.active {
+nav.globalMenuSp.active {
   opacity: 100;
 
 }
