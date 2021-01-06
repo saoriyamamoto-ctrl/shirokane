@@ -1,13 +1,6 @@
-$(function() {
-  $('.hamburger').click(function() {
-      $(this).toggleClass('active');
-
-      if ($(this).hasClass('active')) {
-          $('.globalMenuSp').addClass('active');
- 
-      } else {
-          $('.globalMenuSp').removeClass('active');
-
-      }
+$(function () {
+  $('.navbar_toggle').on('click', function () {
+    $(this).toggleClass('open');
+    $('.menu').toggleClass('open');
   });
 });
