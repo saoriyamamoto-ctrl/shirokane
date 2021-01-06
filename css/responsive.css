@@ -174,8 +174,8 @@ display:none;
 
   }
 
-  .access .box-title{
-   width:65%;
+  .design-concept .box-title {
+    width:52%;
   }
 
   .design-concept p{
@@ -196,11 +196,17 @@ display:none;
       padding-top:60px;
       padding-bottom:50px;
     }
+
+    .access .box-title{
+      width:65%;
+     }
   
     .shirokane-style p{
       padding-right:22px;
       padding-left:25px; 
     }
+
+
   
 
 
