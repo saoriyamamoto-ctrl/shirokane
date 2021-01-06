@@ -20,7 +20,7 @@ header{
 
 }
 
-nav {
+.globalMenuPc {
   float:right;
 }
 
@@ -149,14 +149,14 @@ nav.globalMenuSp ul li {
   width: 100%;
   transition: .4s all;
 }
-nav.globalMenuSp ul li:last-child {
+nav .globalMenuSp ul li:last-child {
   padding-bottom: 0;
 }
-nav.globalMenuSp ul li:hover{
+nav .globalMenuSp ul li:hover{
   background :#ddd;
 }
 
-nav.globalMenuSp ul li a {
+nav .globalMenuSp ul li a {
   display: block;
   color: #fff;
   padding: 1em 0;
@@ -164,7 +164,7 @@ nav.globalMenuSp ul li a {
 }
 
 /* このクラスを、jQueryで付与・削除する */
-nav.globalMenuSp.active {
+nav .globalMenuSp.active {
   opacity: 100;
 
 }
