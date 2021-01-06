@@ -21,7 +21,7 @@ header{
 }
 
 .globalMenuPc {
-  float:right;
+  float: right;
 }
 
 .globalMenuPc li{
@@ -118,7 +118,7 @@ li:last-child a{
 background-image:url(../img/face.jpg);
 background-size: cover;
 background-position: center;
-height:80vh;
+height:88vh;
 text-align: center;
 margin-top:55px;
 }
@@ -465,3 +465,4 @@ padding-bottom:8px;
     line-height: 15px;
     font-size:0.7rem;
   }
+
