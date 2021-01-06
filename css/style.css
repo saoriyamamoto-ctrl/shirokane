@@ -41,7 +41,7 @@ text-decoration: none;
 text-align: center;
 }
 
-nav a:hover{
+.globalMenuPc a:hover{
   opacity:0.5;
 }
 
