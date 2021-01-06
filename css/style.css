@@ -70,102 +70,55 @@ text-align: center;
   padding-left:7px;
 }
 
-/*　ハンバーガーボタン　*/
-.hamburger {
-  display : block;
-  position: fixed;
-  z-index : 3;
-  right : 13px;
-  top   : 12px;
-  width : 42px;
-  height: 42px;
-  cursor: pointer;
-  text-align: center;
-}
-.hamburger span {
-  display : block;
-  position: absolute;
-  width   : 30px;
-  height  : 2px ;
-  left    : 6px;
-  background : #555;
-  -webkit-transition: 0.5s ease-in-out;
-  -moz-transition   : 0.5s ease-in-out;
-  transition        : 0.5s ease-in-out;
-}
-.hamburger span:nth-child(1) {
-  top: 10px;
-}
-.hamburger span:nth-child(2) {
-  top: 20px;
-}
-.hamburger span:nth-child(3) {
-  top: 30px;
+a {
+  text-decoration: none;
+  color: #000;
 }
 
-/* ナビ開いてる時のボタン */
-.hamburger.active span:nth-child(1) {
-  top : 16px;
-  left: 6px;
-  background : #fff;
-  -webkit-transform: rotate(315deg);
-  -moz-transform   : rotate(315deg);
-  transform        : rotate(315deg);
+ul {
+  list-style: none;
 }
 
-.hamburger.active span:nth-child(2),
-.hamburger.active span:nth-child(3) {
-  top: 16px;
-  background : #fff;
-  -webkit-transform: rotate(-315deg);
-  -moz-transform   : rotate(-315deg);
-  transform        : rotate(-315deg);
+.menu {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: ease .5s;
+  transition: ease .5s;
+  z-index: 100;
 }
 
-nav.globalMenuSp {
-  position: fixed;
-  z-index : 2;
-  top  : 0;
-  left : 0;
-  color: #fff;
-  background: rgba(0,0,0,0.7);
-  text-align: center;
-  width: 100%;
-  opacity: 0;
-  transition: opacity .6s ease, visibility .6s ease;
+.menu ul li {
+  padding: 2em 5em;
+  border-bottom: 1px solid #8B8B8B;
 }
 
-nav.globalMenuSp ul {
-  margin: 0 auto;
-  padding: 0;
-  width: 100%;
-}
-
-nav.globalMenuSp ul li {
-  list-style-type: none;
-  padding: 0;
-  width: 100%;
-  transition: .4s all;
-}
-nav.globalMenuSp ul li:last-child {
-  padding-bottom: 0;
-}
-nav.globalMenuSp ul li:hover{
-  background :#ddd;
-}
-
-nav.globalMenuSp ul li a {
+.menu.open {
   display: block;
-  color: #fff;
-  padding: 1em 0;
-  text-decoration :none;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
-/* このクラスを、jQueryで付与・削除する */
-nav.globalMenuSp.active {
-  opacity: 100;
-
+.drawers {
+  position: absolute;
+  right: 0;
+  background-color: #fff;
 }
+
+.drawer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+  height: 70px;
+  padding: 0 1em;
+}
+
+
+
+
 
   /* <!-- top-wrapper --> */
 .top-wrapper .top-background{
