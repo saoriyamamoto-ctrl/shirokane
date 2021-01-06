@@ -144,6 +144,7 @@ nav.globalMenuSp ul {
 }
 
 nav.globalMenuSp ul li {
+  display:none;
   list-style-type: none;
   padding: 0;
   width: 100%;
