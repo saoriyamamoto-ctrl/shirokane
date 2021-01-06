@@ -24,14 +24,14 @@ nav {
   float:right;
 }
 
-nav li{
+.globalMenuPc li{
 display:block;
 float: left;
 padding-left:30px;
 
 }
 
-nav a{
+.globalMenuPc a{
 display:block;
 color: #595757;
 line-height: 1.0;
