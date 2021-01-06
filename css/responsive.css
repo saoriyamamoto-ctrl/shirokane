@@ -104,16 +104,16 @@ margin:0 2%;
   }
 
   .globalMenuPc{
-    display:none;
+    display:none:
   }
 
   .hamburger {
     display : block;
   }
-
+/* 
   nav.globalMenuSp {
     display : none;
-  }
+  } */
 
   .sp-link{
     display : block;
