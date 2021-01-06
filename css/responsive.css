@@ -116,7 +116,7 @@ display:none;
   }
 
   .top-wrapper .top-wrapper-logo{
-    margin-top:180px;
+    margin-top:25vh;
     width:70%;
   }
  
@@ -174,9 +174,8 @@ display:none;
 
   }
 
-  .archtect h3{
-    bottom:41.8%;
-   width:55%;
+  .access .box-title{
+   width:65%;
   }
 
   .design-concept p{
@@ -192,10 +191,6 @@ display:none;
       width:100%;
     }
 
-    .access h2{
-      bottom:29.5%;
-      width:56%;
-    }
 
     .access a{
       padding-top:60px;
