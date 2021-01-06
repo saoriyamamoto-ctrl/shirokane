@@ -116,9 +116,9 @@ li:last-child a{
   /* <!-- top-wrapper --> */
 .top-wrapper .top-background{
 background-image:url(../img/face.jpg);
-background-size: contain;
+background-size:cover;
 background-position:center;
-height:90vh;
+height:88vh;
 text-align: center;
 margin-top:55px;
 }
