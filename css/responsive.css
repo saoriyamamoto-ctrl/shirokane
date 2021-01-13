@@ -103,9 +103,9 @@ padding:1em;
 
 @media (max-width:600px){
   .wrapper{
-    max-width:500px;
+    max-width:100%;
     margin:0 auto;
-    padding:0 1%;
+    /* padding:0 1%; */
   }
 
 .globalMenuPc{
@@ -127,7 +127,7 @@ display:none;
  
   .concept{
     /* height:60vh; */
-    padding-top:40px;
+    padding-top:80px;
   }
 
   .spec{
@@ -166,6 +166,7 @@ display:none;
   
   .profiles{
  flex-direction: column;
+padding:10px 0 80px;
   }
 
   .profile{
@@ -201,12 +202,10 @@ display:none;
       width:65%;
      }
   
-    .shirokane-style p{
+    /* .shirokane-style p{
       padding-right:22px;
       padding-left:25px; 
-    }
-
-
+    } */
   
 
 
