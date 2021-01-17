@@ -166,7 +166,7 @@ display:none;
   
   .profiles{
  flex-direction: column;
-padding:10px 0 80px;
+padding:10px 0 0px;
   }
 
   .profile{
